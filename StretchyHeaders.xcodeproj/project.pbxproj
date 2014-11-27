@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		A5D206131A27407100B1F915 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D206121A27407100B1F915 /* AppDelegate.swift */; };
-		A5D206151A27407100B1F915 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D206141A27407100B1F915 /* ViewController.swift */; };
 		A5D206181A27407100B1F915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D206161A27407100B1F915 /* Main.storyboard */; };
 		A5D2061A1A27407100B1F915 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D206191A27407100B1F915 /* Images.xcassets */; };
 		A5D2061D1A27407100B1F915 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5D2061B1A27407100B1F915 /* LaunchScreen.xib */; };
 		A5D206291A27407200B1F915 /* StretchyHeadersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D206281A27407200B1F915 /* StretchyHeadersTests.swift */; };
+		A5D206331A2741F900B1F915 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D206321A2741F900B1F915 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 		A5D2060D1A27407100B1F915 /* StretchyHeaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StretchyHeaders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D206111A27407100B1F915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5D206121A27407100B1F915 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A5D206141A27407100B1F915 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A5D206171A27407100B1F915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5D206191A27407100B1F915 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A5D2061C1A27407100B1F915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A5D206221A27407100B1F915 /* StretchyHeadersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StretchyHeadersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D206271A27407200B1F915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5D206281A27407200B1F915 /* StretchyHeadersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeadersTests.swift; sourceTree = "<group>"; };
+		A5D206321A2741F900B1F915 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				A5D206121A27407100B1F915 /* AppDelegate.swift */,
-				A5D206141A27407100B1F915 /* ViewController.swift */,
 				A5D206161A27407100B1F915 /* Main.storyboard */,
+				A5D206321A2741F900B1F915 /* TableViewController.swift */,
 				A5D206191A27407100B1F915 /* Images.xcassets */,
 				A5D2061B1A27407100B1F915 /* LaunchScreen.xib */,
 				A5D206101A27407100B1F915 /* Supporting Files */,
@@ -212,8 +212,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5D206151A27407100B1F915 /* ViewController.swift in Sources */,
 				A5D206131A27407100B1F915 /* AppDelegate.swift in Sources */,
+				A5D206331A2741F900B1F915 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +405,7 @@
 				A5D2062E1A27407200B1F915 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5D2062F1A27407200B1F915 /* Build configuration list for PBXNativeTarget "StretchyHeadersTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				A5D206311A27407200B1F915 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
